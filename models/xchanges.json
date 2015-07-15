@@ -1,0 +1,20 @@
+{ 
+  "currencies": [
+    "AUD", "DZD", "ARS", "ALL", "XAL", "AWG", "GBP", "BHD", "BBD", "BTN",
+    "BWP", "BIF", "BSD", "BDT", "BDT", "BYR", "BMD", "BOB", "BRL", "BGN",
+    "CAD", "KHR", "KYD", "XAF", "COP", "XCP", "HRK", "CZK", "CNY", "CVE",
+    "XOF", "CLP", "CLP", "KMF", "CRC", "CUP", "EUR", "DJF", "XCD", "EGP",
+    "ERN", "ETB", "FJD", "DKK", "DOP", "ECS", "ECS", "SVC", "EEK", "FKP",
+    "HKD", "INR", "GHC", "XAU", "GNF", "HTG", "HUF", "IRR", "ILS", "IDR",
+    "GMD", "GIP", "GMD", "GIP", "GIP", "GTQ", "GYD", "HNL", "ISK", "IQD",
+    "JPY", "JOD", "KES", "LBP", "LAK", "LRD", "LTL", "JMD", "KZT", "KWD",
+    "LVL", "LSL", "LYD", "MOP", "MWK", "MVR", "MRO", "MXN", "MNT", "MMK",
+    "MKD", "MYR", "MTL", "MUR", "MDL", "MAD", "NAD", "ANG", "NIO", "KPW",
+    "OMR", "NPR", "NZD", "NGN", "NOK", "XPF", "XPD", "PGK", "PEN", "XPT",
+    "QPR", "RUB", "PKR", "PAB", "PYG", "PHP", "PLN", "RON", "RWF", "CHF",
+    "CHF", "WST", "SAR", "SLL", "SGD", "SIT", "SOS", "LKR", "SDG", "SEK",
+    "KRW", "STD", "SCR", "XAG", "SKK", "SBD", "ZAR", "SHP", "SZL", "SYP",
+    "USD", "TRY", "TZS", "TTD", "AED", "UAH", "THB", "TWD", "TOP", "TND",
+    "UGX", "UYU", "VUV", "VND", "ZMK", "VEF", "YER", "ZWD"
+  ]
+}
