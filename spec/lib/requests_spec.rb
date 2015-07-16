@@ -7,7 +7,7 @@ describe Requests do
     expect(currency_formats.include?("CADUSD")).to be_truthy
   end
   it "can make request to get all exchange rates" do
-    exchange_rates = Requests.make("XCHANGE", "USD")
+    exchange_rates = Requests.make("USD")
     expect(exchange_rates.include?("CADUSD")).to be_truthy
   end
 end
