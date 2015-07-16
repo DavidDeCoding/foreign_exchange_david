@@ -33,7 +33,7 @@ class ForeignExchangeDavid
 
   def get(type=nil)
     if Requests.currencies.include?(type) or type.nil?
-      if type.nil? then @value else ( @value * @rates[type+@type].to_f ) end
+      if type.nil? then @value else ( @value / @rates[type+@type].to_f ) end
     else
       raise "No such currencies error"
     end
