@@ -1,6 +1,7 @@
 require 'unirest'
+require 'foreign_exchange_david'
 
-class Requests
+class ForeignExchangeDavid::Requests
 
   def self.currencies
     JSON.parse(File.read("./models/xchanges.json"))['currencies'].map {|currency| (currency) }
