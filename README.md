@@ -1,12 +1,15 @@
-# Ruby Custom Project Test
+# Foreign Exchange David Gem
 
 ## Usage
 
 gem 'foreign_exchange_david'
 
 require 'foreign_exchange_david'
+
 forex = ForeignExchangeDavid.new(value, currency)
+
 e.g. 
+
 forex = ForeignExchangeDavid.new(1.04, "USD")
 
 ## Methods
