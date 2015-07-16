@@ -1,5 +1,3 @@
-require 'foreign_exchange_david/requests'
-
 class ForeignExchangeDavid
 
   def initialize(value, type)
@@ -41,3 +39,6 @@ class ForeignExchangeDavid
     end
   end
 end
+
+require 'foreign_exchange_david/requests'
+
