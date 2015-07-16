@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'requests'
+require 'foreign_exchange_david/requests'
 
 describe Requests do
   it "knows all currencies" do
