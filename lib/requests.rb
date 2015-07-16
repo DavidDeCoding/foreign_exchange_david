@@ -2,6 +2,10 @@ require 'unirest'
 
 class Requests
 
+  def self.currencies
+    JSON.parse(File.read("./models/xchanges.json"))['currencies'].map {|currency| (currency) }
+  end
+
   def self.currency_formats(value)
     JSON.parse(File.read("./models/xchanges.json"))['currencies'].reject{|currency| currency == value }.map {|currency| (currency+value) }
   end

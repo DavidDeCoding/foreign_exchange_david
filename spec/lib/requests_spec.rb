@@ -2,6 +2,10 @@ require 'spec_helper'
 require 'requests'
 
 describe Requests do
+  it "knows all currencies" do
+    currencies = Requests.currencies
+    expect(currencies.include?("USD")).to be_truthy
+  end
   it "knows all currency_formats" do
     currency_formats = Requests.currency_formats("USD")
     expect(currency_formats.include?("CADUSD")).to be_truthy
